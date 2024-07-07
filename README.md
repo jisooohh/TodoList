@@ -1,9 +1,10 @@
 # TodoList
 
-### 목표: to do list 만들기 실습을 통해, ios 앱을 만들고, DB와연동하는 법을 익힌다.
-## 구현 화면
+### 목표: to do list 만들기 실습을 통해, ios 앱을 만들고, DB와연동하는 법을 익힌다.<br><br>
 
-
+## 첫 화면
+<img src = "https://github.com/jisooohh/TodoList/assets/94797349/206651d0-056b-476a-a8c7-b52b75cace31.png"  width = "200" height = "400"/>
+<br><br>
 ## Home
 구성
 - 상단 : 사용자 지정 todolist 이름
@@ -17,7 +18,7 @@
 
 - 하단 네비게이션 탭 바
     - 캘린더, 탐색, 루틴, my
-
+<br><br>
 ## 수정 필요 사항
 - 탭 바 (캘린더, 탐색, 루틴, my)
 
