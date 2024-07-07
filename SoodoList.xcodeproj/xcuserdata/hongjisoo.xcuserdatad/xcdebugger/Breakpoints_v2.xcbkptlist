@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19445932-0E88-4FCC-8FA2-4C9169BB892E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81CD55B8-5A3F-4D10-A0D4-FF481F7E4F8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoodoList/Struct/Routine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Routine"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "81CD55B8-5A3F-4D10-A0D4-FF481F7E4F8E - ef5c3833c9c606ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of SoodoList.Routine.init(id: Foundation.UUID, title: Swift.String, items: Swift.Array&lt;SoodoList.TodoItem&gt;) -&gt; SoodoList.Routine"
+                  moduleName = "SoodoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hongjisoo/Desktop/SoodoList/SoodoList/Struct/Routine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "81CD55B8-5A3F-4D10-A0D4-FF481F7E4F8E - d25a3624422b09d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoodoList.Routine.init(id: Foundation.UUID, title: Swift.String, items: Swift.Array&lt;SoodoList.TodoItem&gt;) -&gt; SoodoList.Routine"
+                  moduleName = "SoodoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hongjisoo/Desktop/SoodoList/SoodoList/Struct/Routine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

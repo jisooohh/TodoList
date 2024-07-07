@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8BAE81F32C2AEFC800732935 /* SoodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE81F22C2AEFC800732935 /* SoodoListApp.swift */; };
-		8BAE81F52C2AEFC800732935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE81F42C2AEFC800732935 /* ContentView.swift */; };
+		8BAE81F52C2AEFC800732935 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE81F42C2AEFC800732935 /* HomeView.swift */; };
 		8BAE81F72C2AEFCA00732935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAE81F62C2AEFCA00732935 /* Assets.xcassets */; };
 		8BAE81FA2C2AEFCA00732935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAE81F92C2AEFCA00732935 /* Preview Assets.xcassets */; };
 		8BAE82042C2AEFCA00732935 /* SoodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE82032C2AEFCA00732935 /* SoodoListTests.swift */; };
 		8BAE820E2C2AEFCA00732935 /* SoodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE820D2C2AEFCA00732935 /* SoodoListUITests.swift */; };
 		8BAE82102C2AEFCA00732935 /* SoodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE820F2C2AEFCA00732935 /* SoodoListUITestsLaunchTests.swift */; };
+		8BAE821E2C2B0EBA00732935 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE821D2C2B0EBA00732935 /* TodoListView.swift */; };
+		8BAE82202C2B0ECD00732935 /* RoutineGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE821F2C2B0ECD00732935 /* RoutineGridView.swift */; };
+		8BAE82222C2B0ED800732935 /* RoutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE82212C2B0ED800732935 /* RoutineView.swift */; };
+		8BAE82242C2B0EE300732935 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE82232C2B0EE300732935 /* CalendarView.swift */; };
+		8BAE82282C2B0F2D00732935 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE82272C2B0F2D00732935 /* TodoItem.swift */; };
+		8BAE822A2C2B0F3F00732935 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE82292C2B0F3F00732935 /* HomeViewModel.swift */; };
+		8BAE822D2C2B9CAB00732935 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE822C2C2B9CAB00732935 /* CalendarViewModel.swift */; };
+		8BAE822F2C2B9CCC00732935 /* RoutineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE822E2C2B9CCC00732935 /* RoutineViewModel.swift */; };
+		8BAE82312C2B9CF100732935 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE82302C2B9CF100732935 /* Routine.swift */; };
+		8BAE829F2C2D948300732935 /* RoutineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE829E2C2D948300732935 /* RoutineDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		8BAE81EF2C2AEFC800732935 /* SoodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BAE81F22C2AEFC800732935 /* SoodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoodoListApp.swift; sourceTree = "<group>"; };
-		8BAE81F42C2AEFC800732935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BAE81F42C2AEFC800732935 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8BAE81F62C2AEFCA00732935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BAE81F92C2AEFCA00732935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BAE81FF2C2AEFCA00732935 /* SoodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,16 @@
 		8BAE82092C2AEFCA00732935 /* SoodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BAE820D2C2AEFCA00732935 /* SoodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoodoListUITests.swift; sourceTree = "<group>"; };
 		8BAE820F2C2AEFCA00732935 /* SoodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BAE821D2C2B0EBA00732935 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		8BAE821F2C2B0ECD00732935 /* RoutineGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineGridView.swift; sourceTree = "<group>"; };
+		8BAE82212C2B0ED800732935 /* RoutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineView.swift; sourceTree = "<group>"; };
+		8BAE82232C2B0EE300732935 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		8BAE82272C2B0F2D00732935 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		8BAE82292C2B0F3F00732935 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8BAE822C2C2B9CAB00732935 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		8BAE822E2C2B9CCC00732935 /* RoutineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineViewModel.swift; sourceTree = "<group>"; };
+		8BAE82302C2B9CF100732935 /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		8BAE829E2C2D948300732935 /* RoutineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				8BAE81F22C2AEFC800732935 /* SoodoListApp.swift */,
-				8BAE81F42C2AEFC800732935 /* ContentView.swift */,
 				8BAE81F62C2AEFCA00732935 /* Assets.xcassets */,
+				8BAE822B2C2B9C8400732935 /* Struct */,
+				8BAE82262C2B0F1A00732935 /* Model */,
+				8BAE821C2C2B0E7900732935 /* View */,
 				8BAE81F82C2AEFCA00732935 /* Preview Content */,
 			);
 			path = SoodoList;
@@ -125,6 +147,38 @@
 				8BAE820F2C2AEFCA00732935 /* SoodoListUITestsLaunchTests.swift */,
 			);
 			path = SoodoListUITests;
+			sourceTree = "<group>";
+		};
+		8BAE821C2C2B0E7900732935 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE81F42C2AEFC800732935 /* HomeView.swift */,
+				8BAE821D2C2B0EBA00732935 /* TodoListView.swift */,
+				8BAE821F2C2B0ECD00732935 /* RoutineGridView.swift */,
+				8BAE82212C2B0ED800732935 /* RoutineView.swift */,
+				8BAE829E2C2D948300732935 /* RoutineDetailView.swift */,
+				8BAE82232C2B0EE300732935 /* CalendarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BAE82262C2B0F1A00732935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE82292C2B0F3F00732935 /* HomeViewModel.swift */,
+				8BAE822C2C2B9CAB00732935 /* CalendarViewModel.swift */,
+				8BAE822E2C2B9CCC00732935 /* RoutineViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BAE822B2C2B9C8400732935 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE82272C2B0F2D00732935 /* TodoItem.swift */,
+				8BAE82302C2B9CF100732935 /* Routine.swift */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +311,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BAE81F52C2AEFC800732935 /* ContentView.swift in Sources */,
+				8BAE82282C2B0F2D00732935 /* TodoItem.swift in Sources */,
+				8BAE81F52C2AEFC800732935 /* HomeView.swift in Sources */,
 				8BAE81F32C2AEFC800732935 /* SoodoListApp.swift in Sources */,
+				8BAE82242C2B0EE300732935 /* CalendarView.swift in Sources */,
+				8BAE82222C2B0ED800732935 /* RoutineView.swift in Sources */,
+				8BAE822F2C2B9CCC00732935 /* RoutineViewModel.swift in Sources */,
+				8BAE829F2C2D948300732935 /* RoutineDetailView.swift in Sources */,
+				8BAE821E2C2B0EBA00732935 /* TodoListView.swift in Sources */,
+				8BAE82312C2B9CF100732935 /* Routine.swift in Sources */,
+				8BAE822D2C2B9CAB00732935 /* CalendarViewModel.swift in Sources */,
+				8BAE822A2C2B0F3F00732935 /* HomeViewModel.swift in Sources */,
+				8BAE82202C2B0ECD00732935 /* RoutineGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
